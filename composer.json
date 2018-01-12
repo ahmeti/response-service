@@ -31,7 +31,7 @@
         "ResponseService": "Ahmeti\\ResponseService\\Facades\\ResponseService"
       },
       "providers": [
-        "Ahmeti\\ResponseService\\ResponseServiceProvider"
+        "Ahmeti\\ResponseService\\Providers\\ResponseServiceProvider"
       ]
     }
   }
