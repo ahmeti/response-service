@@ -1,0 +1,33 @@
+{
+  "name": "ahmet/laravel-response-service",
+  "description": "Laravel Response Service",
+  "homepage": "https://github.com/ahmeti/laravel-response-service",
+  "keywords": ["laravel", "response", "service"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ahmet Imamoglu",
+      "email": "ahmet363@gmail.com",
+      "role": "Developer",
+      "homepage": "https://ahmetimamoglu.com.tr"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "illuminate/http": "5.5.*"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-0": {
+      "Ahmeti\\ResponseService": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ahmeti\\ResponseService\\ResponseServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}
