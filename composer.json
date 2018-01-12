@@ -1,7 +1,7 @@
 {
-  "name": "ahmet/laravel-response-service",
+  "name": "ahmet/response-service",
   "description": "Laravel Response Service",
-  "homepage": "https://github.com/ahmeti/laravel-response-service",
+  "homepage": "https://github.com/ahmeti/response-service",
   "keywords": ["laravel", "response", "service"],
   "license": "MIT",
   "authors": [
