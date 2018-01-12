@@ -2,8 +2,6 @@
 
 namespace Ahmeti\ResponseService;
 
-use Illuminate\Http\Response;
-
 class ResponseService {
 
     private $vStatus=false;
@@ -52,7 +50,7 @@ class ResponseService {
             return false;
         }
 
-        return Response::json([
+        return response()->json([
             'status' => $this->vStatus,
             'message' => $this->vMessage,
             'data' => $this->vData,
