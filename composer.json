@@ -24,10 +24,14 @@
   },
   "extra": {
     "laravel": {
+      "aliases": {
+        "ResponseService": "Ahmeti\\ResponseService\\Facades\\ResponseService"
+      },
       "providers": [
         "Ahmeti\\ResponseService\\ResponseServiceProvider"
       ]
     }
   },
+  "prefer-stable": true,
   "minimum-stability": "stable"
 }
