@@ -43,6 +43,6 @@ class ResponseServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['ResponseService', ResponseService::class];
+        return ['ahmeti-response-service'];
     }
 }
