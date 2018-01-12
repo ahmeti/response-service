@@ -31,7 +31,5 @@
         "Ahmeti\\ResponseService\\ResponseServiceProvider"
       ]
     }
-  },
-  "prefer-stable": true,
-  "minimum-stability": "stable"
+  }
 }
