@@ -45,7 +45,7 @@ class IndexController extends Controller
         return ResponseService::status(true)
             ->message('Hi Dear!')
             ->data(['key1'=>'value1', 'key2'=>'value2'])
-            ->statusCode('A101')
+            ->statusCode('CODE100')
             ->responseCode(200)
             ->send();
     }
