@@ -1,38 +1,39 @@
 {
-  "name": "ahmeti/response-service",
-  "description": "Laravel Response Service",
-  "homepage": "https://github.com/ahmeti/response-service",
-  "keywords": ["laravel", "response", "service"],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Ahmet Imamoglu",
-      "email": "ahmet363@gmail.com",
-      "role": "Developer",
-      "homepage": "https://ahmetimamoglu.com.tr"
-    }
-  ],
-  "require": {
-    "php": ">=7.0.0",
-    "illuminate/http": "5.5.*"
-  },
-  "require-dev": {},
-  "autoload": {
-    "psr-0": {
-      "Ahmeti\\ResponseService": "src/"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.0-dev"
+    "name": "ahmeti/response-service",
+    "description": "Laravel Response Service",
+    "homepage": "https://github.com/ahmeti/response-service",
+    "keywords": ["laravel", "response", "service"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmet Imamoglu",
+            "email": "ahmet363@gmail.com",
+            "role": "Developer",
+            "homepage": "https://ahmetimamoglu.com.tr"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
     },
-    "laravel": {
-      "aliases": {
-        "ResponseService": "Ahmeti\\ResponseService\\Facades\\ResponseService"
-      },
-      "providers": [
-        "Ahmeti\\ResponseService\\Providers\\ResponseServiceProvider"
-      ]
+    "require-dev": {
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "minimum-stability": "dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ahmeti\\ResponseService": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "ResponseService": "Ahmeti\\ResponseService\\Facades\\ResponseService"
+            },
+            "providers": [
+                "Ahmeti\\ResponseService\\Providers\\ResponseServiceProvider"
+            ]
+        }
     }
-  }
 }
