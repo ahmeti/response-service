@@ -1,5 +1,10 @@
 # Simple Api Response Service
 
+## Composer Install
+```code
+composer require "ahmeti/response-service:@dev"
+```
+
 ## Example 01. Simple of use in Controller
 ```php
 <?php
